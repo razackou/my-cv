@@ -59,9 +59,8 @@ To deploy this project, you need:
   - Upload updated files to the S3 bucket.
   - Invalidate the CloudFront cache if necessary (`/*` for all files).
 
-- CI/CD (Optional):
-  - Set up a GitHub Actions workflow to automate deployments to S3 on push to the `main` branch.
-  - Example workflow: Sync files to S3 using `aws s3 sync` and invalidate CloudFront cache.
+- CI/CD (Optional): Check here: https://github.com/razackou/my-cv-CI-CD-pipeline
+  - Set up a GitHub Actions workflow to automate containarization, push/pull to DockerHub and deploy to AWS EKS cluster on push to the `main` branch.
 
 Folder Structure
 ```
@@ -73,7 +72,7 @@ Folder Structure
 └── README.md             # This file
 ```
 ## Future Improvements
-- Add a CI/CD pipeline using GitHub Actions or AWS CodePipeline.
+- Add a CI/CD pipeline using GitHub Actions. Check here: https://github.com/razackou/my-cv-CI-CD-pipeline
 - Implement backend functionality (e.g., contact form) using AWS Lambda and API Gateway.
 - Enhance the website with JavaScript for interactivity.
 - Optimize assets for faster load times.
