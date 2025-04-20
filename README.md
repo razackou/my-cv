@@ -33,7 +33,7 @@ To deploy this project, you need:
 
 2. **Customize the Website:**
 - Update `index.html` and `css/styles.css` with your personal CV details.
-- Add any additional assets (e.g., images) to the `images/` folder.
+- Add any additional assets to the `images/` folder.
 
 3. **AWS Configuration:**
 - S3:
@@ -72,10 +72,9 @@ Folder Structure
 └── README.md             # This file
 ```
 ## Future Improvements
-- Add a CI/CD pipeline using GitHub Actions. Check here: https://github.com/razackou/my-cv-CI-CD-pipeline
+- Add a CI/CD pipeline using GitHub Actions. Check here: [https://github.com/razackou/my-cv-CI-CD-pipeline](https://github.com/razackou/my-cv-CI-CD-pipeline)
 - Implement backend functionality (e.g., contact form) using AWS Lambda and API Gateway.
 - Enhance the website with JavaScript for interactivity.
-- Optimize assets for faster load times.
 
 ## Contributing
 This is a personal project, but feedback is welcome! Feel free to open an issue or submit a pull request with suggestions.
